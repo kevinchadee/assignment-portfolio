@@ -265,24 +265,24 @@ img:hover {
 
 @media screen and (min-width: 768px) {
   #Project {
-    width: 150%;
+    width: 235%;
   }
 
   #About {
-    width: 75%;
+    width: 110%;
   }
 
   #Home {
-    width: 150%;
-    height: 100vh;
-    background: url("/Images/top-picture-tablet.png") no-repeat;
+    width: 236%;
+    height: 200vh;
+    background: url("/Images/top-picture-mob.png") no-repeat;
     background-size: cover;
     background-position: right;
     background-attachment: fixed;
   }
 
   #Contact-Me {
-    width: 150%;
+    width: 236%;
   }
 
   section .content {
@@ -341,6 +341,18 @@ img:hover {
     padding: 21px;
   }
 
+  .previous-projects {
+    display: flex;
+  }
+
+  .current-projects {
+    display: flex;
+  }
+
+  .skills {
+    display: flex;
+  }
+
   .logo-pic {
     margin-left: -50px;
   }
@@ -358,10 +370,10 @@ img:hover {
   }
 
   .scroll {
-    height: 4.2%;
+    height: 3%;
     width: 3%;
     position: fixed;
-    bottom: 40px;
+    bottom: 20px;
     right: 20px;
     padding: 7px 12px;
     font-size: 18px;
@@ -393,6 +405,13 @@ img:hover {
     width: 700px;
     border-radius: 12px;
     margin-left: 250px;
+  }
+
+  img {
+    height: 350px;
+    width: 350px;
+    padding: 0;
+    margin: 0;
   }
 
   img:hover {
