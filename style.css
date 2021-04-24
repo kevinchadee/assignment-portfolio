@@ -12,11 +12,11 @@ nav {
 }
 
 .scroll {
-  height: 1.7%;
-  width: 2.8%;
+  height: 3.3%;
+  width: 5%;
   position: fixed;
-  bottom: 40px;
-  right: 20px;
+  bottom: 45px;
+  right: 50px;
   background: #121213;
   padding: 7px 12px;
   font-size: 18px;
@@ -31,8 +31,8 @@ nav {
 
 .home {
   background: url("/Images/top-picture-mob.png") no-repeat;
-  height: 100vh;
-  width: 400%;
+  height: 75vh;
+  width: 178%;
 }
 
 .home .home-content {
@@ -42,30 +42,31 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-left: 20px;
 }
 
 .home .content1 {
-  font-size: 50px;
+  font-size: 20px;
   color: #051016;
 }
 
 .home .content2 {
   color: #051016;
-  font-size: 100px;
+  font-size: 50px;
   font-weight: 600;
   margin-left: -3px;
   letter-spacing: -1px;
 }
 
 .home .content3 {
-  font-size: 50px;
+  font-size: 30px;
   margin: 5px 0;
   letter-spacing: 1px;
   color: #f30035;
 }
 
 .home .content4 {
-  font-size: 50px;
+  font-size: 40px;
   margin: 5px 0;
   color: #051016;
 }
@@ -73,11 +74,11 @@ nav {
 section {
   padding-top: 100px;
   background-color: #fff;
-  padding-bottom: 100px;
+  padding-bottom: 0px;
 }
 
 .about-content .title {
-  width: 400%;
+  width: 178%;
 }
 
 .about .about-details {
@@ -101,15 +102,15 @@ section .subtitle {
   font-weight: 600;
   text-align: left;
   padding: 50px;
-  width: 400%;
+  width: 178%;
 }
 
 .about .about-details .left {
-  width: 95%;
+  display: block;
 }
 
 .about .about-details .right {
-  display: flex;
+  display: none;
 }
 
 .about-details .left p {
@@ -117,7 +118,7 @@ section .subtitle {
   text-align: justify;
   color: #051016;
   padding-left: 10px;
-  width: 420%;
+  width: 178%;
   padding: 50px;
 }
 
@@ -140,19 +141,20 @@ section .subtitle {
 #Project {
   background-color: #d6e5fc;
   padding-bottom: 50px;
-  width: 400%;
+  width: 178%;
 }
 
 .previous-projects {
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
 }
 
 img {
-  height: 200px;
-  width: 200px;
+  height: 400px;
+  width: 400px;
   border-radius: 5px;
+  margin-left: 20%;
 }
 
 .project-image {
@@ -184,7 +186,7 @@ img {
 }
 
 .current-projects {
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
 }
@@ -211,7 +213,7 @@ img {
 }
 
 .skills {
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
 }
@@ -233,19 +235,15 @@ img {
 }
 
 #Contact-Me {
-  width: 400%;
+  width: 178%;
 }
 
 .contact {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   justify-content: space-evenly;
-}
-
-.Contact-Me .title {
-  width: 330%;
 }
 
 section .contact {
@@ -255,14 +253,10 @@ section .contact {
 
 footer {
   background: #2980b9;
-  padding: 30px 0;
+  padding: 30px 0px;
   margin: 0;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-}
 
-#Contact-Me {
-  padding-bottom: 0;
+  text-align: center;
 }
 
 img:hover {
