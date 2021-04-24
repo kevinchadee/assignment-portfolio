@@ -430,6 +430,7 @@ img:hover {
 
   #Home {
     width: 100%;
+    height: 250vh;
   }
   #About {
     width: 50%;
@@ -463,6 +464,7 @@ img:hover {
 
   .about .about-details .right {
     width: 40%;
+    display: flex;
   }
 
   .about-details .left p {
@@ -471,13 +473,21 @@ img:hover {
     padding-left: 70px;
   }
 
+  img {
+    height: 300px;
+    width: 300px;
+    padding: 0;
+    margin: 0;
+  }
+
   .about .right img {
+    display: flex;
     height: 500px;
-    width: 500px;
+    width: 800px;
     object-fit: cover;
     border-radius: 12px;
     float: right;
-    margin-left: 160%;
+    padding-left: 230px;
   }
 
   .about .right img:hover {
