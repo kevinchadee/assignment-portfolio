@@ -313,7 +313,7 @@ img:hover {
   }
 
   nav .nav-bar .logo a {
-    color: #fff;
+    color: #000;
     font-size: 30px;
     text-decoration: none;
   }
@@ -329,7 +329,7 @@ img:hover {
   }
 
   .nav-bar .menu li a {
-    color: #fff;
+    color: #000;
     font-size: 25px;
     text-decoration: none;
     transition: all 0.4s ease;
